@@ -1,0 +1,58 @@
+User Story: 1022
+Talk to: Siva
+
+This story is a Spike to determine what problems need to be solved for SAML comms between the library and the IDP when using HTTPS instead of HTTP.
+
+
+Comments:
+1.) High secured certificates require for testing
+2.) Enable SSL in visual studio
+3.) Add binding in IIS
+
+
+User Story 1023: SPIKE: ESAA - Test Library HTTPS comms with IDP on separate machine
+Talk to: Siva
+
+This is a spike to discover what problems there might be communicating from the Azure cloud back to an ESAA machine. To simulate this without ESAA, we'll need a machine in the ESAA environment to run the test IDP on to communicate with. Sky should know were this needs to be.
+
+Running the test project and library from Siva's Azure VM should be sufficient for this Spike, with the intention of covering PaaS specific security restrictions when we actually integrate this in to the Curriculum Tool.
+
+
+
+https://minedunz.visualstudio.com/CurriculumTool/_backlogs/board/Stories
+
+md-col-dtl-012579577498000.australiaeast.cloudapp.azure.com:55186
+
+
+Powershell script for selfsigned certificate:
+Set-Location -Path "cert:\LocalMachine\My"
+
+$cert = New-SelfSignedCertificate -Type custom -CertStoreLocation Cert:\LocalMachine\My -subject localhost -DnsName localhost -FriendlyName SAMLLocalHost -KeyExportPolicy Exportable -KeyAlgorithm RSA -KeyLength 1024 -KeySpec Signature -KeyUsage DigitalSignature,KeyEncipherment,DataEncipherment -NotAfter (Get-Date).AddYears(5)
+
+$pwd = ConvertTo-SecureString -String 'moe.idp.saml.client’ -Force -AsPlainText
+
+$path = "cert:\LocalMachine\My\" + $cert.thumbprint
+
+Export-PfxCertificate -cert $path -FilePath C:\WORK\Certs\localhost.pfx -Password $pwd
+
+Export-Certificate -cert $path -FilePath C:\WORK\Certs\localhost.crt
+
+
+steps to execute certificate:
+1.) Import pfx file to Personal in MMS. Password: moe.idp.saml.client
+2.) Import crt file to Trusted Root Certification Authority.
+3.) Add to binding in IIS
+4.) Start applications.
+5.) Select localhost in IDP.
+6.) Set the IP in IDP.
+7.) Download the IDP file and place in Service provider metadata folder
+8.) Download metadata file from Service provider.
+9.) Uplaod the SP metadata in IDP.
+10.) Click on Secured Page link in Service Provider. Enter credentials in login page.
+
+
+Monday: HTTPs testing
+Tuesday: HTTPS testing on two different mechines 
+Wednesday: Col tool SAML code integration
+Thursday:Certificates
+Friday: Col tool SAML integration
