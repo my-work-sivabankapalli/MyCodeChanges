@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor entityID="https://lsi.security.education.org.nz/opensso" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+    <IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIHyjCCBrKgAwIBAgIKbhCEnAAAAAAB8DANBgkqhkiG9w0BAQUFADCB8DELMAkGA1UEBhMCTlox
+KzApBgNVBAoTIk1pbmlzdHJ5IG9mIEVkdWNhdGlvbiwgTmV3IFplYWxhbmQxODA2BgNVBAsTL01v
+RSBJbnRlcm5hbCBUZXN0IEVudmlyb25tZW50IFBLSSBUcnVzdCBOZXR3b3JrMUUwQwYDVQQLEzxN
+aW5pc3RyeSBvZiBFZHVjYXRpb24sIE5ldyBaZWFsYW5kIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9u
+bHkxMzAxBgNVBAMTKk1pbmlzdHJ5IG9mIEVkdWNhdGlvbiBOWiBUZXN0IElzc3VpbmcgQ0EgMjAe
+Fw0xNTA2MDMyMjU1NDdaFw0xNzA2MDIyMjU1NDdaMIGRMQswCQYDVQQGEwJOWjETMBEGA1UECBMK
+V2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjEeMBwGA1UEChMVTWluaXN0cnkgb2YgRWR1
+Y2F0aW9uMQswCQYDVQQLEwJJVDErMCkGA1UEAxMic2VjdXJpdHkuZWR1Y2F0aW9uLm9yZy5uei5F
+U0FBU0FNTDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIQayNAUx5s7G4Dt4TIpSPaA
+qvOuqL0pH+YSyRjI0+jll3BtidhG1Q2taa7Pt4YsX1MU2464STvWhs/seDYFBUvvjU5/PWcFKD7y
+ejtHsTljFyUQzvUG5bMfmSGoc1wT9cSM4vP632cu6WWfiId/2WIAHscA0FtUtFa3QaaiEM6N5V0C
+I9S/NTr164yl2HRjTp+mDcyipeBcNGz3q+lbK2cFE4t6finq8d4gDllFp4YECry95Cty7Yiw893B
+r7JgzXPUWLpf4innGp8WtTnBlU44E2KeA+qsCh4da0g2FFcL0jYWwtwp2JYsjwuuAdEBuUxl8aA8
+mdYiCCr8IPQkCY0CAwEAAaOCA8EwggO9MB0GA1UdDgQWBBSWxZwYQ8RQ/2LxgM8Jl5ediD7E0jAf
+BgNVHSMEGDAWgBSE5yHV2Va1nxHXlIUsbJMx673jyjCCAWcGA1UdHwSCAV4wggFaMIIBVqCCAVKg
+ggFOhl9odHRwOi8vcGtpLm1pbmVkdS5nb3Z0Lm56L2NlcnRkYXRhL01pbmlzdHJ5JTIwb2YlMjBF
+ZHVjYXRpb24lMjBOWiUyMFRlc3QlMjBJc3N1aW5nJTIwQ0ElMjAyLmNybIaB6mxkYXA6Ly8vQ049
+TWluaXN0cnklMjBvZiUyMEVkdWNhdGlvbiUyME5aJTIwVGVzdCUyMElzc3VpbmclMjBDQSUyMDIs
+Q049U1RFRFVQS0kwMixDTj1DRFAsQ049UHVibGljJTIwS2V5JTIwU2VydmljZXMsQ049U2Vydmlj
+ZXMsQ049Q29uZmlndXJhdGlvbixEQz1lZHVjYXRpb24sREM9b3JnLERDPW56P2NlcnRpZmljYXRl
+UmV2b2NhdGlvbkxpc3Q/YmFzZT9vYmplY3RDbGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludDCCAZAG
+CCsGAQUFBwEBBIIBgjCCAX4wawYIKwYBBQUHMAKGX2h0dHA6Ly9wa2kubWluZWR1LmdvdnQubnov
+Y2VydGRhdGEvTWluaXN0cnklMjBvZiUyMEVkdWNhdGlvbiUyME5aJTIwVGVzdCUyMElzc3Vpbmcl
+MjBDQSUyMDIuY3J0MIHfBggrBgEFBQcwAoaB0mxkYXA6Ly8vQ049TWluaXN0cnklMjBvZiUyMEVk
+dWNhdGlvbiUyME5aJTIwVGVzdCUyMElzc3VpbmclMjBDQSUyMDIsQ049QUlBLENOPVB1YmxpYyUy
+MEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9ZWR1Y2F0aW9u
+LERDPW9yZyxEQz1uej9jQUNlcnRpZmljYXRlP2Jhc2U/b2JqZWN0Q2xhc3M9Y2VydGlmaWNhdGlv
+bkF1dGhvcml0eTAtBggrBgEFBQcwAYYhaHR0cDovL29jc3AuZWR1Y2F0aW9uLm9yZy5uei9vY3Nw
+MAsGA1UdDwQEAwIFoDA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiBg7sS8LFdgq2bH4HN5zuE
+9voxgW6E6b9theffTgIBZAIBAjATBgNVHSUEDDAKBggrBgEFBQcDATAbBgkrBgEEAYI3FQoEDjAM
+MAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBBQUAA4IBAQCsH/tjhQgQhj/d1CxOzYyk9YdV4Sxvfmrx
+NN48kstWK2XxSNbwIJrjIKS+Sah3eWZw4f43d+DL3dIK2sFvOKSf8SShBka+z1cD6x/smNsSB1Lp
+4IrSt+pbNyTNqVF/vIjC9hEE951ZmsWkDDUehfAtNIRH4wqwBtmoHHzwUy/ykoCjqWcgt/+pztYz
+8mYsoDOJbV9Jtv2xZgen+9okotjHQ4pzPHbFWSKEARhAGUZU/MYJIxUHbjy84r4cGSqoYdmh1/eg
+g6gkOP4jiyc/JWhmXyRyBhXbtJNc70k19F8jX00FVnXPPiNBa4YgVGcVKPRMU3IWYSffIlPxITO1
+4McE
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <ArtifactResolutionService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/ArtifactResolver/metaAlias/idp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lsi.security.education.org.nz:443/opensso/IDPSloRedirect/metaAlias/idp" ResponseLocation="https://lsi.security.education.org.nz:443/opensso/IDPSloRedirect/metaAlias/idp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lsi.security.education.org.nz:443/opensso/IDPSloPOST/metaAlias/idp" ResponseLocation="https://lsi.security.education.org.nz:443/opensso/IDPSloPOST/metaAlias/idp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/IDPSloSoap/metaAlias/idp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lsi.security.education.org.nz:443/opensso/IDPMniRedirect/metaAlias/idp" ResponseLocation="https://lsi.security.education.org.nz:443/opensso/IDPMniRedirect/metaAlias/idp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lsi.security.education.org.nz:443/opensso/IDPMniPOST/metaAlias/idp" ResponseLocation="https://lsi.security.education.org.nz:443/opensso/IDPMniPOST/metaAlias/idp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/IDPMniSoap/metaAlias/idp"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lsi.security.education.org.nz:443/opensso/SSORedirect/metaAlias/idp"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lsi.security.education.org.nz:443/opensso/SSOPOST/metaAlias/idp"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/SSOSoap/metaAlias/idp"/>
+        <NameIDMappingService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/NIMSoap/metaAlias/idp"/>
+        <AssertionIDRequestService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://lsi.security.education.org.nz:443/opensso/AIDReqSoap/IDPRole/metaAlias/idp"/>
+        <AssertionIDRequestService Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" Location="https://lsi.security.education.org.nz:443/opensso/AIDReqUri/IDPRole/metaAlias/idp"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>
+
