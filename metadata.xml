@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<q1:EntityDescriptor entityID="https://nz.govt.moe.coltool.dev" validUntil="2017-06-04T21:31:55.9916841Z" ID="id6d08e125905a4de0ba9afbfbd80b8843" xmlns:q1="urn:oasis:names:tc:SAML:2.0:metadata"><!--<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#id6d08e125905a4de0ba9afbfbd80b8843"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>exIFSNAQ/M7/gDRETDjKJCknPwA=</DigestValue></Reference></SignedInfo><SignatureValue>XLMkmLPsUduayDgIEqTLbZUxxnLbCsek5Bkx7ucRdItOEJ4OUV+Azo9OnOGY9pxHkcx3VpGrU+2tFhfLuOdcUYZh00DEJW2+RREjJyvk9oYk43mjmxc81Y3wOlwfHl4NwVDt9ZnfnaET358yUL7Md4KSXPIHL41/1TdwG1xslPI=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIB9DCCAV2gAwIBAgIQP6Q7SErtxr9IYOiThipbdzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwHhcNMTcwNTI1MjE1NjMyWhcNMjIwNTI1MjIwNjMyWjAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXLMMPpKjCwZhVzNTo7VU1WtG+3dreqqRE6CTJJZksgVTinIHPzRB4kWA/0Ozp6riajrMDPffvPuBogKES9UflyJAQycBTqS0qPGzy7Xsel1rM3OB5f3PbfNveKQAaEaVCPhDczafpSS7LYuEBFhABahwTKTVsmOi1xA3pumG+pAgMBAAGjRzBFMA4GA1UdDwEB/wQEAwIEsDAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFETCk6pG7PBy2Cw2j0hpgQQ4wYt2MA0GCSqGSIb3DQEBBQUAA4GBAA/XPT2uw0yC/DC/1xRYJS7f43AGipNDXq4kt0hkCd6BUXJGneCjb693p+1mgutJTuXBUghyXNMn+FLyFaAAV6yYJNAqKvWm342yvSLcORBLlbdulOdFZwjMGvEZrYMqKG503Q6Ehdm6bz+At/33c2nutSQzLXiB6zc6F5e+SLt3</X509Certificate></X509Data></KeyInfo></Signature>-->
+  <q1:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <q1:KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIB9DCCAV2gAwIBAgIQP6Q7SErtxr9IYOiThipbdzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwHhcNMTcwNTI1MjE1NjMyWhcNMjIwNTI1MjIwNjMyWjAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXLMMPpKjCwZhVzNTo7VU1WtG+3dreqqRE6CTJJZksgVTinIHPzRB4kWA/0Ozp6riajrMDPffvPuBogKES9UflyJAQycBTqS0qPGzy7Xsel1rM3OB5f3PbfNveKQAaEaVCPhDczafpSS7LYuEBFhABahwTKTVsmOi1xA3pumG+pAgMBAAGjRzBFMA4GA1UdDwEB/wQEAwIEsDAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFETCk6pG7PBy2Cw2j0hpgQQ4wYt2MA0GCSqGSIb3DQEBBQUAA4GBAA/XPT2uw0yC/DC/1xRYJS7f43AGipNDXq4kt0hkCd6BUXJGneCjb693p+1mgutJTuXBUghyXNMn+FLyFaAAV6yYJNAqKvWm342yvSLcORBLlbdulOdFZwjMGvEZrYMqKG503Q6Ehdm6bz+At/33c2nutSQzLXiB6zc6F5e+SLt3</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </q1:KeyDescriptor>
+    <q1:KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIB9DCCAV2gAwIBAgIQP6Q7SErtxr9IYOiThipbdzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwHhcNMTcwNTI1MjE1NjMyWhcNMjIwNTI1MjIwNjMyWjAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXLMMPpKjCwZhVzNTo7VU1WtG+3dreqqRE6CTJJZksgVTinIHPzRB4kWA/0Ozp6riajrMDPffvPuBogKES9UflyJAQycBTqS0qPGzy7Xsel1rM3OB5f3PbfNveKQAaEaVCPhDczafpSS7LYuEBFhABahwTKTVsmOi1xA3pumG+pAgMBAAGjRzBFMA4GA1UdDwEB/wQEAwIEsDAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFETCk6pG7PBy2Cw2j0hpgQQ4wYt2MA0GCSqGSIb3DQEBBQUAA4GBAA/XPT2uw0yC/DC/1xRYJS7f43AGipNDXq4kt0hkCd6BUXJGneCjb693p+1mgutJTuXBUghyXNMn+FLyFaAAV6yYJNAqKvWm342yvSLcORBLlbdulOdFZwjMGvEZrYMqKG503Q6Ehdm6bz+At/33c2nutSQzLXiB6zc6F5e+SLt3</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </q1:KeyDescriptor>
+    <q1:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <q1:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <q1:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <q1:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</q1:NameIDFormat>
+    <q1:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:44306/handlers/signon.ashx" index="0" isDefault="true" />
+    <q1:AttributeConsumingService index="0" isDefault="true">
+      <q1:ServiceName xml:lang="da">SP</q1:ServiceName>
+      <q1:RequestedAttribute Name="urn:FirstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+      <q1:RequestedAttribute Name="urn:LastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+    </q1:AttributeConsumingService>
+  </q1:SPSSODescriptor>
+  <q1:ContactPerson contactType="administrative">
+    <q1:Company>MOE</q1:Company>
+    <q1:GivenName>help</q1:GivenName>
+    <q1:SurName>desk</q1:SurName>
+    <q1:EmailAddress>support@education.govt.nz</q1:EmailAddress>
+    <q1:TelephoneNumber>...</q1:TelephoneNumber>
+  </q1:ContactPerson>
+</q1:EntityDescriptor>
