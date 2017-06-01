@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityConfig entityID="https://nz.govt.moe.coltool.dev" hosted="true" xmlns="urn:sun:fm:SAML:2.0:entityconfig">
+  <SPSSOConfig metaAlias="/sp">
+        <Attribute name="appLogoutUrl"/>
+        <Attribute name="attributeMap">
+            <Value>o=HTTP_ESAA_LOGGEDINCONTEXTNAME</Value>
+            <Value>uid=HTTP_ESAA_UID</Value>
+            <Value>eduPersonOrgDN=HTTP_ESAA_LOGGEDINCONTEXTID</Value>
+            <Value>eduPersonScopedAffiliation=ESAA_SECURITY_ROLES</Value>
+			<Value>GivenName=HTTP_ESAA_GIVENNAME</Value>
+			<Value>nzmoeOtherGivenName=HTTP_ESAA_MIDDLENAME</Value>
+			<Value>sn=HTTP_ESAA_SURNAME</Value>
+			<Value>displayname=HTTP_ESAA_PREFERREDNAME</Value>
+			<Value>cn=HTTP_ESAA_FULLNAME</Value>
+			<Value>SchacPersonalTitle=HTTP_ESAA_TITLE</Value>
+			<Value>nzmoeGender=HTTP_ESAA_GENDER</Value>
+			<Value>mail=HTTP_ESAA_EMAIL</Value>
+        </Attribute>
+        <Attribute name="spAdapterEnv">
+            <Value/>
+        </Attribute>
+        <Attribute name="useIntroductionForIDPProxy">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="autofedAttribute">
+            <Value/>
+        </Attribute>
+        <Attribute name="spAdapter">
+            <Value/>
+        </Attribute>
+        <Attribute name="intermediateUrl">
+            <Value/>
+        </Attribute>
+        <Attribute name="saml2AuthModuleName">
+            <Value/>
+        </Attribute>
+        <Attribute name="spAccountMapper">
+            <Value>com.sun.identity.saml2.plugins.DefaultLibrarySPAccountMapper</Value>
+        </Attribute>
+        <Attribute name="defaultRelayState">
+            <Value/>
+        </Attribute>
+        <Attribute name="wantNameIDEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="responseArtifactMessageEncoding"/>
+        <Attribute name="saeAppSecretList"/>
+        <Attribute name="enableIDPProxy">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="localAuthURL">
+            <Value/>
+        </Attribute>
+        <Attribute name="spAuthncontextMapper">
+            <Value>com.sun.identity.saml2.plugins.DefaultSPAuthnContextMapper</Value>
+        </Attribute>
+        <Attribute name="saeSPUrl">
+            <Value/>
+        </Attribute>
+        <Attribute name="idpProxyCount">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="transientUser">
+            <Value>anonymous</Value>
+        </Attribute>
+        <Attribute name="autofedEnabled">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantAttributeEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantMNIResponseSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantLogoutRequestSigned">
+            <Value>true</Value>
+        </Attribute>
+        <Attribute name="cotlist">
+            <Value>ESAASAMLCOT</Value>
+        </Attribute>
+        <Attribute name="ECPRequestIDPListFinderImpl">
+            <Value>com.sun.identity.saml2.plugins.ECPIDPFinder</Value>
+        </Attribute>
+        <Attribute name="idpProxyList">
+            <Value/>
+        </Attribute>
+        <Attribute name="ECPRequestIDPListGetComplete"/>
+        <Attribute name="spAuthncontextComparisonType">
+            <Value>exact</Value>
+        </Attribute>
+        <Attribute name="wantLogoutResponseSigned">
+            <Value>true</Value>
+        </Attribute>
+        <Attribute name="saeSPLogoutUrl"/>
+        <Attribute name="basicAuthUser">
+            <Value/>
+        </Attribute>
+        <Attribute name="wantPOSTResponseSigned">
+            <Value>true</Value>
+        </Attribute>
+        <Attribute name="basicAuthPassword">
+            <Value/>
+        </Attribute>
+        <Attribute name="wantArtifactResponseSigned">
+            <Value>true</Value>
+        </Attribute>
+        <Attribute name="spAttributeMapper">
+            <Value>com.sun.identity.saml2.plugins.DefaultSPAttributeMapper</Value>
+        </Attribute>
+        <Attribute name="ECPRequestIDPList">
+            <Value/>
+        </Attribute>
+        <Attribute name="spAuthncontextClassrefMapping">
+            <Value>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport|0|default</Value>
+        </Attribute>
+        <Attribute name="assertionTimeSkew">
+            <Value>300</Value>
+        </Attribute>
+        <Attribute name="wantMNIRequestSigned">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="wantAssertionEncrypted">
+            <Value>false</Value>
+        </Attribute>
+        <Attribute name="basicAuthOn">
+            <Value>false</Value>
+        </Attribute>
+    </SPSSOConfig>
+</EntityConfig>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptor entityID="https://nz.govt.moe.coltool.dev" validUntil="2017-06-07T21:12:44.5727660Z" ID="id8500d5e99fc549d9a01311e286448acd" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIB9DCCAV2gAwIBAgIQP6Q7SErtxr9IYOiThipbdzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwHhcNMTcwNTI1MjE1NjMyWhcNMjIwNTI1MjIwNjMyWjAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXLMMPpKjCwZhVzNTo7VU1WtG+3dreqqRE6CTJJZksgVTinIHPzRB4kWA/0Ozp6riajrMDPffvPuBogKES9UflyJAQycBTqS0qPGzy7Xsel1rM3OB5f3PbfNveKQAaEaVCPhDczafpSS7LYuEBFhABahwTKTVsmOi1xA3pumG+pAgMBAAGjRzBFMA4GA1UdDwEB/wQEAwIEsDAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFETCk6pG7PBy2Cw2j0hpgQQ4wYt2MA0GCSqGSIb3DQEBBQUAA4GBAA/XPT2uw0yC/DC/1xRYJS7f43AGipNDXq4kt0hkCd6BUXJGneCjb693p+1mgutJTuXBUghyXNMn+FLyFaAAV6yYJNAqKvWm342yvSLcORBLlbdulOdFZwjMGvEZrYMqKG503Q6Ehdm6bz+At/33c2nutSQzLXiB6zc6F5e+SLt3</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIB9DCCAV2gAwIBAgIQP6Q7SErtxr9IYOiThipbdzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwHhcNMTcwNTI1MjE1NjMyWhcNMjIwNTI1MjIwNjMyWjAUMRIwEAYDVQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXLMMPpKjCwZhVzNTo7VU1WtG+3dreqqRE6CTJJZksgVTinIHPzRB4kWA/0Ozp6riajrMDPffvPuBogKES9UflyJAQycBTqS0qPGzy7Xsel1rM3OB5f3PbfNveKQAaEaVCPhDczafpSS7LYuEBFhABahwTKTVsmOi1xA3pumG+pAgMBAAGjRzBFMA4GA1UdDwEB/wQEAwIEsDAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFETCk6pG7PBy2Cw2j0hpgQQ4wYt2MA0GCSqGSIb3DQEBBQUAA4GBAA/XPT2uw0yC/DC/1xRYJS7f43AGipNDXq4kt0hkCd6BUXJGneCjb693p+1mgutJTuXBUghyXNMn+FLyFaAAV6yYJNAqKvWm342yvSLcORBLlbdulOdFZwjMGvEZrYMqKG503Q6Ehdm6bz+At/33c2nutSQzLXiB6zc6F5e+SLt3</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:44306/handlers/signoff.ashx" ResponseLocation="https://localhost:44306/handlers/signoff.ashx" />
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:44306/handlers/signon.ashx" index="0" isDefault="true" />
+    <AttributeConsumingService index="0" isDefault="true">
+      <ServiceName xml:lang="da">SP</ServiceName>
+      <RequestedAttribute Name="urn:FirstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+      <RequestedAttribute Name="urn:LastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <ContactPerson contactType="administrative">
+    <Company>MOE</Company>
+    <GivenName>help</GivenName>
+    <SurName>desk</SurName>
+    <EmailAddress>support@education.govt.nz</EmailAddress>
+    <TelephoneNumber>...</TelephoneNumber>
+  </ContactPerson>
+</EntityDescriptor>
